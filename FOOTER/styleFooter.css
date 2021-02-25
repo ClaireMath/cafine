@@ -10,7 +10,7 @@
 footer {
     height: 200px;
     width: 100%;
-    background-image: url("./IMAGES_CL/COFFEE/coffee-seeds.jpg");
+    background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
     color: white;
     display: flex;
     flex-direction: row;
