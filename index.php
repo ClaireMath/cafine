@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header/header.css">  
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="header.css">
 
 <!--  <link href="../footer/footer.css" rel="stylesheet" />  -->
     <title>Cafiné</title>
@@ -15,6 +15,7 @@
 <body>
 
 <!-- ajout du header en include --> 
+
 <?php 
 include "header/header.html"
 ?>
@@ -22,10 +23,6 @@ include "header/header.html"
 
 
                    beinvenue c'est l'index
-
-
-
-
 
 
 
