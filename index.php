@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header/header.css">  
+    <link rel="stylesheet" href="./FOOTER/styleFooter.css">  
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -21,12 +22,16 @@ include "header/header.html"
 ?>
 
 
+<section>
+                  <p> Bienvenue c'est l'index</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
 
-                   beinvenue c'est l'index
-
-
-
-
+</section>
+<?php
+include "FOOTER/footerCl.html"
+?>
 
     
     <!--- javaSciprt -->

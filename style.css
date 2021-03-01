@@ -1,3 +1,12 @@
 body {
-    background-color: aquamarine;
+    background-color: black;
+}
+section {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+p {
+    text-align: justify;
 }

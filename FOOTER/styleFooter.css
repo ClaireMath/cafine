@@ -8,9 +8,10 @@
 }
 
 footer {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
+    background-size: cover;
     color: white;
     display: flex;
     flex-direction: row;
