@@ -14,18 +14,23 @@
 </head>
 <body>
 
-<!-- ajout du header en include --> 
+  <!-- ajout du header en include --> 
+
+  
 <?php 
-include "header/header.html"
+include "../header/header.html" 
 ?>
 
 
-
-                   beinvenue c'est l'index
-
+                   beinvenue c'est l'achat en ligne 
 
 
 
+          
+                <a href="/cafine/inscription/seconnecter.php"> <button> Se connecter </button> </a>
+          
+
+                 <a href="/cafine/inscription/inscription.php"> <button> s'inscrire </button> </a> 
 
 
 
