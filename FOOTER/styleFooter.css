@@ -10,25 +10,54 @@
 footer {
   font-family: 'Comic Sans MS', cursive;
   font-size: 17px;
-    height: 300px;
-    width: 100%;
-    background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
-    background-size: cover;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  height: 400px;
+  width: 100%;
+  /* border-radius: 20px; */
+  background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
+
 .footer {
   font-family: 'Comic Sans MS', cursive;
+  width: 200px;
+  height: 250px;
+  opacity: 0.7;
+  background-color: black;
   color: wheat;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+.chocolat, .contact {
+  width: 200px;
+}
+
 a {
   text-decoration: none;
   color: white;
+}
+.ctnIcon {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.ctn2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* text-align: center; */
+}
+.icon{
+  width: 30px;
+}
+.icon:hover{
+  width: 40px;
+  box-shadow: 0px 0px 9px #777;
 }
