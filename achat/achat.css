@@ -1,0 +1,35 @@
+.lesarticles {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+
+.container {
+  position: relative;  
+  
+  padding-top: 5%;
+}
+
+
+
+.overlay {
+
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 88%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+}
