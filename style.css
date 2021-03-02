@@ -18,6 +18,9 @@ section {
 }
 .leftCtn, .rightCtn {
     width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .photoFuts {
     width: 100%;
