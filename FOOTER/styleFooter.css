@@ -8,6 +8,8 @@
 }
 
 footer {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 17px;
     height: 300px;
     width: 100%;
     background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
@@ -19,6 +21,8 @@ footer {
     align-items: center;
 }
 .footer {
+  font-family: 'Comic Sans MS', cursive;
+  color: wheat;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

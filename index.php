@@ -23,12 +23,19 @@ include "header/header.html"
 
 
 <section>
-                  <p> Bienvenue c'est l'index</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe blanditiis rem perferendis, expedita dignissimos optio voluptatum accusantium? Itaque sequi fugit voluptates a distinctio, quos aliquam modi hic quod obcaecati commodi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia culpa iure temporibus velit laudantium incidunt debitis id non repellat praesentium, ab similique molestias doloribus commodi quibusdam corrupti iste nihil inventore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus suscipit autem pariatur omnis mollitia sequi possimus delectus illo natus beatae vitae explicabo assumenda reprehenderit aut cupiditate tempore, at nam sapiente!</p>
-
-</section>
+                 <div class="leftCtn"> 
+                <p> Cafiné a vu le jour suite à la rencontre entre un passionné de spiritueux et différents artisans français. Ce qui nous a réunis, c’est la passion des produits artisanaux de qualité. Nous avons souhaité rendre hommage à la richesse des spiritueux français. </p>
+        
+                  <p>Notre ambition est d'être des pionniers, des provocateurs et des créateurs de nouvelles saveurs. Nous souhaitons dépoussiérer l’image des spiritueux en mélangeant savoir-faire français et créations originales. Ceci afin de reconnecter les consommateurs avec des saveurs oubliées et leur faire redécouvrir la richesse des spiritueux français.</p>
+                  <p>La seule limite à notre créativité est notre imagination. </p>
+ 
+                  <p>Notre concept est d’utiliser des fûts ayant servis à l’élevage des meilleurs spiritueux français pour y affiner du café. </p>
+                  <p>Nous travaillons aussi sur le mariage du chocolat et du thé avec les spiritueux au travers de procédés innovants.</p>
+                  </div>
+                <div class="rightCtn">
+<img src="./IMAGES_CL/PhotosThomas/barrels.jpg" alt="cave avec futs" class="photoFuts">
+                </div>
+            </section>
 <?php
 include "FOOTER/footerCl.html"
 ?>
