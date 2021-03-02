@@ -1,13 +1,17 @@
 .lesarticles {
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 2%;
+    padding-top: 2%; 
+
+    background-color: black;
+
 }
+
+        /* ajout panier fenetre */
 
 
 .container {
   position: relative;  
-  
   padding-top: 5%;
 }
 
@@ -32,4 +36,23 @@
 
 .container:hover .overlay {
   opacity: 1;
+}
+                /* fin ajout fentre    */ 
+
+.modal-body{
+   display: flex;
+   justify-content: center !important ;
+    
+}
+
+.modal-footer{
+ display: flex;
+ justify-content: space-between !important;
+}
+ 
+.titrePanier {
+
+    display: flex;
+    justify-content: center !important ;
+     
 }
