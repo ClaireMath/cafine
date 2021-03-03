@@ -59,7 +59,7 @@ body,html{
 }
 
 .parallax1 {
-    background-image: url("/cafine/IMAGES_CL/chocolat/chocolat.jpg"); 
+    background-image: url("/cafine/IMAGES_CL/COFFEE/cafe1.jpg"); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,7 +68,7 @@ body,html{
 }
 
 .parallax2 {
-    background-image: url("/cafine/IMAGES_CL/chocolat/chocolat3.png");
+    background-image: url("/cafine/IMAGES_CL/COFFEE/cafe2.jpg");
     background-size: 30px;
     background-attachment: fixed;
     background-position: center;
@@ -77,7 +77,7 @@ body,html{
 }
 
 .parallax3 {
-    background-image: url("/cafine/IMAGES_CL/chocolat/chocolat3.png"); 
+    background-image: url("/cafine/IMAGES_CL/COFFEE/cafe3.jpg"); 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
