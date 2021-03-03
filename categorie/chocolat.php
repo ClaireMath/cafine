@@ -20,6 +20,8 @@
 include "../header/header.html" 
 ?>  
     <body>
+
+
         <div class="container">
             <div class="frame">
                 <div id="placement" class="parallax1"></div>
@@ -38,6 +40,8 @@ include "../header/header.html"
                 </div>
             </div>
         </div>
+
+        
         <?php
             include "../FOOTER/footerCl.html"
         ?>
