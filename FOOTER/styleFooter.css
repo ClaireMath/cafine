@@ -56,8 +56,11 @@ a {
 }
 .icon{
   width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .icon:hover{
-  width: 40px;
-  box-shadow: 0px 0px 9px #777;
-}
+  width: 35px;
+  filter: drop-shadow(0 0 0.75rem white);
+  
+  }
