@@ -15,8 +15,6 @@
   padding-top: 5%;
 }
 
-
-
 .overlay {
 
   position: absolute;
@@ -39,6 +37,9 @@
 }
                 /* fin ajout fentre    */ 
 
+
+
+                
 .modal-body{
    display: flex;
    justify-content: center !important ;
@@ -55,4 +56,14 @@
     display: flex;
     justify-content: center !important ;
      
+}
+
+
+.titre {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+    padding-bottom:1% ;
+    background-color: rgb(228, 227, 227);
+  
 }
