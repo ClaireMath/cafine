@@ -23,7 +23,7 @@
     include "header/header.html"
     ?>
 
-<div class="bigCTN" >
+<div class="bigCTN">
     <section class="section1">
         <div class="leftCtn">
             <p> Cafiné a vu le jour suite à la rencontre entre un passionné de spiritueux et différents artisans français. Ce qui nous a réunis, c’est la passion des produits artisanaux de qualité. Nous avons souhaité rendre hommage à la richesse des spiritueux français. </p>
@@ -36,7 +36,7 @@
             <img src="./IMAGES_CL/PhotosThomas/barrels.jpg" alt="cave avec futs" class="photoFuts">  
         </div>
     </section>
-   <section>
+   <section class="section2" >
    <iframe width="660" height="415" src="https://www.youtube.com/embed/1qfjLCOXMMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </section>
    </div>
