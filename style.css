@@ -1,10 +1,16 @@
-
+.bigCTN {
+  background-color: black;
+font-family: 'Comic Sans MS', cursive;
+color: wheat;  
+display: flex;
+flex-direction : column;
+justify-content: space-evenly;
+/* align-items: center; */
+}
 section {
-    background-color: black;
-    font-family: 'Comic Sans MS', cursive;
-    color: wheat;
+    
     width: 100%;
-    height: 550px;
+    height: 750px;
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 50px;
@@ -17,9 +23,13 @@ section {
     width: 47%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .photoFuts {
+    width: 100%;
+    border-radius: 10px;
+}
+.photoFuts2 {
     width: 100%;
     border-radius: 10px;
 }
@@ -27,7 +37,8 @@ p {
     text-align: justify;
 }
 .video {
-    width: 100%;
+    /* width: 100%;
+    height: 50%; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -35,3 +46,41 @@ align-items: center;
 iframe {
     width: 100%;
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /*style petites-moyennes tablettes */
+  
+    .bigCTN {
+        height: 1200px;
+    }
+  
+  }
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    /*style petites-moyennes tablettes */
+    .bigCTN {
+        height: 1300px;
+    }
+    .section1 {
+        flex-direction: column;
+    }
+    
+  
+  }
+  
+  @media only screen and (min-width: 376px) and (max-width: 425px) {
+  
+    /*style petites-moyennes tablettes */
+    
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+  
+    /*style smartphones et petites tablettes en portrait*/
+    
+  }
+  
+    @media only screen and (max-device-width: 320px) {
+      /*style petits smartphones en voie de disparition*/
+      
+  } 
+  
