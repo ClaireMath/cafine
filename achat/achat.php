@@ -26,7 +26,7 @@
     include "../header/headerBoutique.html"
     ?>
 
-<div class="titre " >
+<div class="titre sticky-top "  >
     <img src="tea.png " style="width:3%;">
     <img src="graineCafe.png"  style="width:3% ; " >
     <img src="chocolat.png" style="width:3% ; " >
@@ -37,7 +37,157 @@
 
 
 
-    <!-- ajout de card  -->
+
+<!-- ajout de card thé -->
+
+<div class="lesarticles">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/TEA/tea1.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier ? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/TEA/tea1.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le premier thé </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le premier thé </h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fin ajout de card  -->
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/TEA/tea1.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/TEA/tea1.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le deuxième thé </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10€ </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le deuxième thé </h5>
+                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/TEA/tea1.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/TEA/tea1.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le 3ème thé </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 30 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le troisième thé </h5>
+                        <p class="card-text"> t, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+                                <div class="barre" > 
+                                
+                                </div>
+        <!-- ------------------------------------------------------------------- --> 
+
+
+
+    <!-- ajout des card café -->
 
     <div class="lesarticles">
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -53,7 +203,7 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier ? </h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
@@ -129,7 +279,7 @@
             </div>
 
 
-
+ 
 
 
 
@@ -223,7 +373,461 @@
     </div>
 
 
+                                 <div class="barre" > 
+                                
+                                </div>
+            <!-- ------------------------------------------------------------------- --> 
 
+
+
+
+
+<!-- ajout de card Chocolat -->
+
+<div class="lesarticles">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier ? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le premier Chocolat  </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le premier Chocolat  </h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fin ajout de card  -->
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le deuxième Chocolat  </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10€ </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le deuxième Chocolat  </h5>
+                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/Chocolat/chocolat.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le 3ème Chocolat </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 30 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le troisième Chocolat  </h5>
+                        <p class="card-text"> t, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+                                        <div class="barre" > 
+                                        
+                                        </div>
+                        
+        <!-- ------------------------------------------------------------------- --> 
+
+
+
+<!-- ajout de card Chocolat -->
+
+<div class="lesarticles">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/poivre/poivre.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier ? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/poivre/poivre.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le premier poivre  </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le premier poivre  </h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fin ajout de card  -->
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/poivre/poivre.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/poivre/poivre.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le deuxième poivre   </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10€ </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le deuxième poivre   </h5>
+                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/poivre/poivre.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/poivre/poivre.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le 3ème poivre  </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 30 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le troisième poivre   </h5>
+                        <p class="card-text"> t, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+                            <div class="barre" > 
+                                
+                                </div>
+                        
+        <!-- ------------------------------------------------------------------- --> 
+
+
+                    
+
+<!-- ajout de card Chocolat -->
+
+<div class="lesarticles">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier ? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le premier autres </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le premier autres   </h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fin ajout de card  -->
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le deuxième autres    </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 10€ </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le deuxième autres    </h5>
+                        <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="container">
+                        <img src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" class="card-img-top" alt="..." data-bs-toggle="modal" data-bs-target="#exampleModal  ">
+                        <div class="overlay">Ajouter aux panier <img src="panier.png " style="width: 11%;" alt="panier"> </div>
+
+                        <!-- ajout fenetre panier  -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Êtes vous sur de rajouter cette arcticle à votre panier? </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img class="ajoutpanier" src="/cafine/IMAGES_CL/SPIRITUEUX/bourbon.jpg" style="width: 30%; ">
+                                    </div>
+
+                                    <h5 class="titrePanier" > Voici le 3ème autres   </h5>
+
+                                    <div class="modal-footer">
+                                        <p class="prixAjout "> Prix : 30 € </p>
+                                        <div>
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                                            <button type="button" class="btn btn-primary">Ajouter</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fin ajout fenetre panier  -->
+
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Voici le troisième autres   </h5>
+                        <p class="card-text"> t, aut error veritatis facilis voluptatem blanditiis aliquam provident harum ipsam! Unde, amet delectus? Dignissimos porro iste dolorem cupiditate vel recusandae vero. </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+<div class="barre" > 
+ 
+</div>
 
 
 
