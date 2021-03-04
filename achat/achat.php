@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleFooter.css">
+    <link rel="stylesheet" href="../FOOTER/styleFooter.css"> 
 
     
 
@@ -830,14 +831,9 @@
 </div>
 
 
-
-
-
-
-
-
-
-
+<?php
+    include "../FOOTER/footerCl.html"
+    ?>
 
 
 
