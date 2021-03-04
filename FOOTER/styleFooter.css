@@ -7,10 +7,10 @@
   outline: none;
 }
 
-footer {
+/* footer {
   font-family: 'Comic Sans MS', cursive;
   font-size: 17px;
-  height: 400px;
+  height: 300px;
   width: 100%;
   background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
   background-size: cover;
@@ -19,19 +19,54 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+} */
+footer {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 17px;
+  height: 450px;
+  width: 100%;
+  background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-.ctnPrResponsive {
+.firstLine,  .secondLine{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+.secondLine{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
+.ctnNewsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* .btn {
+  border-radius: 10px;
+} */
+/* 
+.ctnPrResponsive {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+} */
 
 .footer {
   font-family: 'Comic Sans MS', cursive;
   width: 200px;
-  height: 250px;
+  height: 200px;
   opacity: 0.7;
   background-color: black;
   color: wheat;
@@ -49,7 +84,11 @@ a {
 
 .ctnIcon {
   display: flex;
+  padding-bottom: 10px;
   /* justify-content: space-between; */
+}
+.contact h4 {
+  padding-top: 10px;
 }
 
 .ctn2 {
@@ -97,7 +136,13 @@ a {
   /*style petites-moyennes tablettes */
 
   footer {
-    height: 600px;
+    height: 680px;
+    flex-wrap: wrap;
+  }
+  .firstLine {
+    flex-wrap: wrap;
+  }
+  .secondLine {
     flex-wrap: wrap;
   }
 
@@ -107,7 +152,13 @@ a {
 
   /*style petites-moyennes tablettes */
   footer {
-    height: 850px;
+    height: 680px;
+    flex-wrap: wrap;
+  }
+  .firstLine {
+    flex-wrap: wrap;
+  }
+  .secondLine {
     flex-wrap: wrap;
   }
 }
@@ -116,15 +167,35 @@ a {
 
   /*style smartphones et petites tablettes en portrait*/
   footer {
-    height: 1500px;
+    height: 1400px;
+    flex-wrap: wrap;
+  }
+  .firstLine {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .secondLine {
     flex-wrap: wrap;
   }
 }
 
   @media only screen and (max-device-width: 320px) {
     /*style petits smartphones en voie de disparition*/
-    footer {
-    height: 1500px;
+  
+  footer {
+    /* flex-direction: column; */
+    height: 1400px;
+    flex-wrap: wrap;
+  }
+  .firstLine {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .secondLine {
+    flex-wrap: wrap;
     flex-direction: column;
   }
 } 

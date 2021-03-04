@@ -1,26 +1,24 @@
 body,html{
     padding:0;
     margin:0;
-  
-
 }
-
+body {
+background-color: black !important;
+}
 .container{
     padding-top: 2%;
-   
     height: 300vh;
     width: 100vw;
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
-    
+    /* background-color: black; */
 }
 
 .frame{
     background-color: lightblue;
     width: 80%;
-    height: 90%;
+    height: 99%;
     display: flex;
     flex-direction: column;
     
@@ -83,4 +81,41 @@ body,html{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* RESPONSIVE */
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    /*style petites-moyennes tablettes */
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .text {
+     padding: 0px;
+ }  
+  }
+  
+  @media only screen and (min-width: 321px) and (max-width: 375px) {
+    /*style smartphones et petites tablettes en portrait*/
+    .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+    }
+    .text {
+        padding: 0px;
+    }  
+  }
+  
+    @media only screen and (max-device-width: 320px) {
+      /*style petits smartphones en voie de disparition*/
+      .container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+
+    }
+    .text {
+        padding: 0px;
+    } 
+  }
+  
 
