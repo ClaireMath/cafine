@@ -115,7 +115,6 @@ a {
 .icon:hover {
   width: 35px;
   filter: drop-shadow(0 0 0.75rem white);
-
 }
 
 .contact2 {
@@ -127,7 +126,7 @@ a {
 @media(min-width:992px){}
 @media(min-width:1200px){} */
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
 
   /*style petites-moyennes tablettes */
   .footer {
@@ -144,7 +143,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 423px) and (max-width: 768px) {
   /*style petites-moyennes tablettes */
 
   footer {
@@ -171,7 +170,7 @@ a {
 
 }
 
-@media only screen and (min-width: 376px) and (max-width: 425px) {
+@media screen and (min-width: 376px) and (max-width: 450px) {
 
   /*style petites-moyennes tablettes */
   footer {
@@ -194,7 +193,7 @@ a {
   }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 375px) {
+@media screen and (min-width: 321px) and (max-width: 375px) {
 
   /*style smartphones et petites tablettes en portrait*/
   footer {
@@ -222,7 +221,7 @@ a {
   }
 }
 
-  @media only screen and (max-device-width: 320px) {
+  @media screen and (max-device-width: 320px) {
     /*style petits smartphones en voie de disparition*/
 
     footer {
@@ -238,7 +237,7 @@ a {
     }
 
     .ctnNewsletter {
-      width: 100%;
+      /* width: 100%; */
       padding: 4px;
     }
 
