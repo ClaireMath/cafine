@@ -28,11 +28,11 @@
     ?>
 
 <div class="titre sticky-top "  >
-    <img src="tea.png " style="width:3%;">
-    <img src="graineCafe.png"  style="width:3% ; " >
-    <img src="chocolat.png" style="width:3% ; " >
-    <img src="poivre.png" style="width:3% ; " >
-    <img src="autres.png" style="width:4% ; " >
+  <a href="#tea" > <img  src="tea.png " style="width:20%;" > </a>
+  <a href="#cafe" >  <img src="graineCafe.png"  style="width:20% ; " > </a>
+  <a href="#chocolat" > <img src="chocolat.png" style="width:20% ; " > </a>
+  <a href="#poivre" >  <img src="poivre.png" style="width:20% ; " > </a>
+  <a href="#autres" >  <img src="autres.png" style="width:20% ; " > </a>
 
 </div>
 
@@ -41,7 +41,7 @@
 
 <!-- ajout de card thé -->
 
-<div class="lesarticles">
+<div class="lesarticles" id="tea">
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col">
@@ -190,7 +190,7 @@
 
     <!-- ajout des card café -->
 
-    <div class="lesarticles">
+    <div class="lesarticles" id="cafe" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col">
@@ -385,7 +385,7 @@
 
 <!-- ajout de card Chocolat -->
 
-<div class="lesarticles">
+<div class="lesarticles" id="chocolat" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col">
@@ -534,9 +534,9 @@
 
 
 
-<!-- ajout de card Chocolat -->
+<!-- ajout de card poivre -->
 
-<div class="lesarticles">
+<div class="lesarticles" id="poivre" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col">
@@ -685,9 +685,9 @@
 
                     
 
-<!-- ajout de card Chocolat -->
+<!-- ajout de card autres -->
 
-<div class="lesarticles">
+<div class="lesarticles" id="autres" >
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
             <div class="col">

@@ -60,6 +60,7 @@
 
 
 .titre {
+  padding-left: 12%;
     display: flex;
     justify-content: space-evenly;
     padding-top: 1%;
