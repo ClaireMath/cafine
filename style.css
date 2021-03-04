@@ -54,7 +54,7 @@ iframe {
         display: flex;
         justify-content: center;
         /* height: 550px; */
-        background-color: blueviolet;
+        /* background-color: blueviolet; */
     }
   }
 @media only screen and (min-width: 426px) and (max-width: 768px) {
@@ -88,7 +88,7 @@ iframe {
     }
     .section2 {
         height: 500px;
-        width: 105%;
+        width: 100%;
     }
     
   
@@ -127,7 +127,7 @@ iframe {
     }
     .section2 {
         height: 500px;
-        width: 105%;
+        width: 100%;
     }
   }
   
@@ -164,7 +164,7 @@ iframe {
     }
     .section2 {
         height: 500px;
-        width: 105%;
+        width: 100%;
     }
   }
   
@@ -200,7 +200,7 @@ iframe {
     }
     .section2 {
         height: 500px;
-        width: 105%;
+        width: 100%;
     }
   }
   

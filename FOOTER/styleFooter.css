@@ -7,23 +7,10 @@
   outline: none;
 }
 
-/* footer {
-  font-family: 'Comic Sans MS', cursive;
-  font-size: 17px;
-  height: 300px;
-  width: 100%;
-  background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-} */
 footer {
   font-family: 'Comic Sans MS', cursive;
   font-size: 17px;
-  height: 450px;
+  height: 300px;
   width: 100%;
   background-image: url("../IMAGES_CL/COFFEE/coffee-seeds.jpg");
   background-size: cover;
@@ -33,28 +20,47 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
-.firstLine,  .secondLine{
+
+.firstLine,
+.secondLine {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: space-evenly;
 }
-.secondLine{
+
+.secondLine {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
+
 .ctnNewsletter {
+  width: 32%;
+  padding: 10px;
+  height: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-}
-/* .btn {
+  font-family: 'Comic Sans MS', cursive;
+  opacity: 0.7;
+  background-color: black;
+  color: wheat;
   border-radius: 10px;
-} */
+}
+
+.myInputTxt {
+  border-radius: 10px;
+}
+
+.btnCL {
+  border-radius: 10px;
+  width: 50px;
+}
+
 /* 
 .ctnPrResponsive {
   display: flex;
@@ -87,6 +93,7 @@ a {
   padding-bottom: 10px;
   /* justify-content: space-between; */
 }
+
 .contact h4 {
   padding-top: 10px;
 }
@@ -110,6 +117,7 @@ a {
   filter: drop-shadow(0 0 0.75rem white);
 
 }
+
 .contact2 {
   display: none;
 }
@@ -130,20 +138,35 @@ a {
   .contact {
     width: 200px;
   }
+
+  .ctnNewsletter {
+    width: 48%;
+  }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 768px) {
   /*style petites-moyennes tablettes */
 
   footer {
-    height: 680px;
+    height: 525px;
     flex-wrap: wrap;
   }
+
   .firstLine {
     flex-wrap: wrap;
   }
+
   .secondLine {
     flex-wrap: wrap;
+  }
+
+  .ctnNewsletter {
+    width: 55%;
+  }
+
+  .poivre,
+  .contact {
+    margin-top: 20px;
   }
 
 }
@@ -152,14 +175,22 @@ a {
 
   /*style petites-moyennes tablettes */
   footer {
-    height: 680px;
+    height: 320px;
     flex-wrap: wrap;
   }
-  .firstLine {
-    flex-wrap: wrap;
+
+  .the,
+  .cafe,
+  .poivre,
+  .chocolat {
+    display: none;
   }
-  .secondLine {
-    flex-wrap: wrap;
+
+  .ctnNewsletter {
+    width: 95%;
+  }
+  .myInputTxt {
+    width: 170px;
   }
 }
 
@@ -167,35 +198,56 @@ a {
 
   /*style smartphones et petites tablettes en portrait*/
   footer {
-    height: 1400px;
+    height: 320px;
     flex-wrap: wrap;
   }
-  .firstLine {
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+
+  .the,
+  .cafe,
+  .poivre,
+  .chocolat {
+    display: none;
   }
-  .secondLine {
-    flex-wrap: wrap;
+
+  .ctnNewsletter {
+    width: 95%;
+  }
+
+  .btnCL {
+    width: 32px;
+  }
+
+  .myInputTxt {
+    width: 160px;
   }
 }
 
   @media only screen and (max-device-width: 320px) {
     /*style petits smartphones en voie de disparition*/
-  
-  footer {
-    /* flex-direction: column; */
-    height: 1400px;
-    flex-wrap: wrap;
+
+    footer {
+      height: 320px;
+      flex-wrap: wrap;
+    }
+
+    .the,
+    .cafe,
+    .poivre,
+    .chocolat {
+      display: none;
+    }
+
+    .ctnNewsletter {
+      width: 100%;
+      padding: 4px;
+    }
+
+    .btnCL {
+      width: 32px;
+    }
+
+    .myInputTxt {
+      width: 160px;
+
+    }
   }
-  .firstLine {
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    
-  }
-  .secondLine {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-} 
