@@ -1,4 +1,9 @@
 
+        <!-- page d'inscription -->
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>

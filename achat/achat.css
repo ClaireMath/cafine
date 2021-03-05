@@ -1,3 +1,8 @@
+
+ /* page css paour la page achat ( boutique en ligne ) */ 
+
+
+
 .lesarticles {
     padding-left: 2%;
     padding-right: 2%;
@@ -38,7 +43,7 @@
                 /* fin ajout fentre    */ 
 
 
-
+        /* centrer les article dans le fenetre d'ajout panier  */ 
                 
 .modal-body{
    display: flex;
@@ -58,6 +63,9 @@
      
 }
 
+  /* fin fentre ajout panier */ 
+
+
 
 .titre {
   padding-left: 12%;
@@ -67,6 +75,8 @@
     padding-bottom:1% ;
     background-color: rgb(228, 227, 227);
 }
+
+/* séparation entre chaque categorie dans la boutique en ligne */ 
 
 .barre {
   width: 100%;
